@@ -1,2 +1,3 @@
 *.o
-lightum
+/lightum
+/lightum.service

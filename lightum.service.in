@@ -1,0 +1,9 @@
+[Unit]
+Description=MacBook automatic light sensor daemon
+Documentation=man:lightum(1)
+
+[Service]
+ExecStart=@bindir@/lightum
+
+[Install]
+WantedBy=default.target
